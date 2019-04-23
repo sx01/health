@@ -1,0 +1,7 @@
+
+之前使用 tar 命令来创建压缩文件，分割成20M大小的文件
+tar czvf - VTS_01_4.mp4 | split -b 20m
+
+
+可以使用 tar 解压：
+cat x* | tar xzvf - 
